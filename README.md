@@ -1,4 +1,4 @@
-# Transformer model contextual word embeddings and clustering
+# Contextual word embeddings and Bayesian clustering from transformer models
 
 Python code and environment files to reproduce the process used for the paper *A new method for computational cultural cartography: From neural word embeddings to transformers and Bayesian mixture models*: 
 
