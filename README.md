@@ -5,7 +5,7 @@ Python code and environment files to reproduce the process used for the paper *A
 
 The *crs_corpus* directory contains a 2% sample of the JSTOR corpus used in the paper, for each decade of publication. This sample size is both for JSTOR terms of use, and to fall within the github 100mb individual file limit.
 
-**NOTE** this repository is not a software release so is intended for reproduction of the process only. Very limited support is available (ie. only fixes for bugs that we can reproduce with the data sample provided). The pipeline should work with any text corpus but *considerable* adaptation would be needed for many of the steps. Similarly, *distilbert* fine-tuning was performed with a GPU (py. That code may be adaptable for CPU but the processing time for even the 2% sample would increase substantially.
+**NOTE** this repository is not a software release so is intended for reproduction of the process only. Very limited support is available (ie. only fixes for bugs that we can reproduce with the data sample provided). The pipeline should work with any text corpus but *considerable* adaptation would be needed for many of the steps. Similarly, *distilbert* fine-tuning was performed with a GPU. That code may be adaptable for CPU but the processing time for even the 2% sample would increase substantially.
 
 It should also be possible to do a near-reproduction of the full paper results by making a request to JSTOR using the following parameters:
 
